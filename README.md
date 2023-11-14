@@ -1,4 +1,4 @@
-# UntitledTriviaGameCITE260
+# MindMasters
  Pre Production stage for our Mini Python Game for ITE-260
  WELCOME TO OUR FIRST COLLABORATION PROJECT FOR ITE-260
 
