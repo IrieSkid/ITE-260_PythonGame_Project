@@ -23,7 +23,7 @@ questions =  [
         'answer': "D"
     },
     {
-        'question': "How did Spider-Man get his powers?:\n \nA. He got bit by it\nB. He was born with them\nC. He ate a Spider\nD. He bought his powers\n ",
+        'question': "How did Spider-Man get his powers?:\n \nA. He got bit by a Spider\nB. He was born with them\nC. He ate a Spider\nD. He bought his powers\n ",
         'answer': "A"
     },
     {
@@ -56,7 +56,7 @@ questions =  [
     },
     {
         'question': "The Philippines was a colony for almost 400 years of which European country?:\n \nA. USA\nB. Japan\nC. Russia\nD. Spain\n ",
-        'answer': "C"
+        'answer': "D"
     },
     {
         'question': "What is the name of the world-famous resort island located in the Visayan province of Aklan known for its white-sand beaches and vibrant nightlife?:\n \nA. Boracay\nB. Siargao\nC. Palawan\nD. Bali\n ",
@@ -79,7 +79,7 @@ questions =  [
         'answer': "A"
     },
     {
-        'question': "Which of these is the staple food of the Filipinos and is eaten at every meal?:\n \nA. Corb\nB. Bread\nC. Rice\nD. Adobo\n ",
+        'question': "Which of these is the staple food of the Filipinos and is eaten at every meal?:\n \nA. Corn\nB. Bread\nC. Rice\nD. Adobo\n ",
         'answer': "C"
     },
     {
@@ -185,7 +185,8 @@ while game_running:
             if player_life == 0:
                 print("Game Over! No lives left!")
                 print()
-            elif player_score == score_limit:
+                break
+            if player_score == score_limit:
                 print("----------------------------")
                 print("----------------------------")
                 print("Congratulations! You've Won!")
