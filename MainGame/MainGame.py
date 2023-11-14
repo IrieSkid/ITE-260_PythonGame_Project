@@ -58,3 +58,9 @@ if player_option == 1:
             print(input_answer ," is Incorrect!")
             print("Your Score: ", player_score)
         question_number += 1
+elif player_option== 2:
+    print("Leaderboard is not yet available! Come back soon!")
+    print()
+else:
+    exit
+replay_input = input("Would You Like to Play Again? (Y/N): ").upper()
