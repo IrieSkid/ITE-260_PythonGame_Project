@@ -47,6 +47,7 @@ if player_option == 1:
             print()
         input_answer = input("Enter (A, B, C, D): ").upper()
         player_answers.append(input_answer)
+        print()
         if input_answer == correct_answers[question_number]:
             print()
             print(input_answer ,"is Correct!")
@@ -57,10 +58,14 @@ if player_option == 1:
         else:
             print(input_answer ," is Incorrect!")
             print("Your Score: ", player_score)
+            print()
+            print("--------------------------------------------")
         question_number += 1
 elif player_option== 2:
     print("Leaderboard is not yet available! Come back soon!")
     print()
 else:
     exit
+    
+print()
 replay_input = input("Would You Like to Play Again? (Y/N): ").upper()
