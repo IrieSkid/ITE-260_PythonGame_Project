@@ -21,7 +21,7 @@ question_number = 0
 
 while game_running:
     player_score = 0
-    player_name = input("ENTER YOUR NAME: ").upper()
+    player_name = input("ENTER YOUR NAME: ")
     print()
     print("--------------------------------------------")
     print("--------------------------------------------")
@@ -54,12 +54,12 @@ while game_running:
                 print()
                 print(input_answer,"is Correct!")
                 player_score += 5
-                print("Your Score: ", player_score)
+                print(player_name + ", your Score is: ", player_score)
                 print()
                 print("--------------------------------------------")
             else:
                 print(input_answer ," is Incorrect!")
-                print("Your Score: ", player_score)
+                print(player_name +", your Score is: ", player_score)
                 print()
                 print("--------------------------------------------")
             question_number += 1
