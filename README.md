@@ -2,9 +2,10 @@
  Pre Production stage for our Mini Python Game for ITE-260
  WELCOME TO OUR FIRST COLLABORATION PROJECT FOR ITE-260
 
+--------------------------------------
 FIRST NEED NATO UG NAME SA ATONG GAME. 
 Any suggestions ibutang ninyo diri sa README.md na file. Feel free to edit para ma update ang README.md
---------------------------------------
+
 Place Suggestions for Game Name Here:
 
 
